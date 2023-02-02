@@ -19,7 +19,7 @@
 4. 모든 문제 풀이 후 저장소 본인 GitHub ID branch에 `push`
 5. PR 요청
 6. 코드 리뷰 진행
-7. 2인 이상의 approve 후 `merge`
+7. 2인 이상의 approve 후 `merge` (merge 후 해당 branch가 삭제되므로 새로 만들어주세요.)
 
 ## 🍀 규칙
 
