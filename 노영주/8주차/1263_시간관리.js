@@ -9,7 +9,7 @@ const main = (() => {
         tasks.push(input[n].trim().split(' ').map(Number));
     }
 
-    tasks.sort((a, b) => b[1] - a[1] || a[1] - b[1]);
+    tasks.sort((a, b) => b[1] - a[1]);
     let time = tasks[0][1] - tasks[0][0];
 
     for (let n = 1; n < N; n++){
