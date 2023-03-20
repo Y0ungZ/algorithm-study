@@ -64,9 +64,7 @@ const main = (() => {
               continue;
             }
           } else if (maze[nextN][nextM].match(new RegExp(/^[a-f]/)) !== null) {
-            if (!(keyInfo & (1 << (maze[nextN][nextM].charCodeAt(0) - 97)))) {
-              updateKeyInfo = keyInfo | (1 << (maze[nextN][nextM].charCodeAt(0) - 97));
-            }
+            updateKeyInfo = keyInfo | (1 << (maze[nextN][nextM].charCodeAt(0) - 97));
           }
 
           visited[keyInfo][nextN][nextM] = true;
