@@ -9,6 +9,7 @@
     - [commit](#commit)
     - [PR](#pr)
     - [리뷰](#리뷰)
+    - [참여 못할 경우](#참여-못할-경우)
   - [🍀 멤버](#-멤버)
 
 ## 🍀 참여 방법
@@ -52,8 +53,13 @@
 - 스터디 끝나면 다른 사람 PR 2명 이상 승인 확인
 - 해당 주차 `merge`
 
+### 참여 못할 경우
+
+- 현(現) 주차를 가장 우선으로 함
+- 밀린 주차는 개인적으로 풀거나, 다 풀었을 경우 현 주차 PR merge 후 PR 생성
+
 ## 🍀 멤버
 
-| [이아영](https://github.com/LeeA0)                                                                                                       | [노영주](https://github.com/Y0ungZ)                                                                                                   | [윤호선](https://github.com/Yh0sun)                                                                                                         | [송유선](https://github.com/yusun31)                                                                                                             | [황상진](https://github.com/Hwang-Sangjin)                                                                                                               |
+| [이아영](https://github.com/LeeA0)                                                                           | [노영주](https://github.com/Y0ungZ)                                                                      | [윤호선](https://github.com/Yh0sun)                                                                            | [송유선](https://github.com/yusun31)                                                                               | [황상진](https://github.com/Hwang-Sangjin)                                                                           |
 | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=lay0711)](https://solved.ac/lay0711) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=at8in)](https://solved.ac/at8in) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=hy770819)](https://solved.ac/hy770819) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=yousun2286)](https://solved.ac/yousun2286) | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=magpies1221)](https://solved.ac/magpies1221) |
