@@ -7,7 +7,7 @@ int ans = 0;
 vector<int> alpa(26);
 vector<string> words;
 
-int choose_alpabet(int s, int cnt) {
+int choose_alphabet(int s, int cnt) {
 	if (cnt == 0) {
 		int num = 0;
 		for (int i = 0; i < words.size(); i++) {
@@ -28,7 +28,7 @@ int choose_alpabet(int s, int cnt) {
 	for (int i = s; i < 26; i++) {
 		if (i == 0 || i == 2 || i == 8 || i == 13 || i == 19)continue;
 		alpa[i] = 1;
-		choose_alpabet(i + 1, cnt - 1);
+		choose_alphabet(i + 1, cnt - 1);
 		alpa[i] = 0;
 	}
 	return 0;
@@ -54,7 +54,7 @@ int main() {
 	alpa[13] = 1;
 	alpa[19] = 1;
 
-	choose_alpabet(1, K - 5);
+	choose_alphabet(1, K - 5);
 	cout << ans;
 	return 0;
 }
