@@ -6,10 +6,20 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class PuyoPuyp {
+public class PuyoPuyo {
     final static int[] dx = {0, 1, 0, -1};
     final static int[] dy = {1, 0, -1, 0};
     static int[][] table = new int[12][6];
+
+    public static class Pos {
+        int x;
+        int y;
+
+        Pos(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
 
     public static void main(String[] args) throws IOException {
         int ans = 0;
@@ -119,13 +129,4 @@ public class PuyoPuyp {
         }
         return flag;
     }
-}/*
-class Pos {
-    int x;
-    int y;
-
-    Pos(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-}*/
+}
