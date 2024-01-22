@@ -4,12 +4,12 @@ const main = (() => {
   const input = fs.readFileSync(filePath).toString().trim().split('\n');
   const ROW = 12,
     COL = 6;
-  const direction = {
-    LEFT: [0, -1],
-    RIGHT: [0, 1],
-    DOWN: [1, 0],
-    UP: [-1, 0],
-  };
+  const direction = [
+    [0, -1],
+    [0, 1],
+    [1, 0],
+    [-1, 0],
+  ];
   const EMPTY_SPACE = '.';
   let chainCount = 0;
   const map = [];
@@ -27,8 +27,7 @@ const main = (() => {
       }
     }
 
-    for (let key in direction) {
-      const [addR, addC] = direction[key];
+    for (const [addR, addC] of direction) {
       const nextR = r + addR;
       const nextC = c + addC;
 
